@@ -12,14 +12,18 @@ class mySlider {
         sliderImg.setAttribute("src", this.pics[this.num]);
     }   
 
+    setImg() {
+        this.slider.setAttribute("src", this.pics[this.num])
+    }
+
     prev() {
         (this.num - 1 < 0) ? this.num = this.length - 1 : this.num -= 1;
-        this.slider.setAttribute("src", this.pics[this.num])
+        this.setImg()
     }
 
     next() {
         (this.num + 1 === this.length) ? this.num = 0 : this.num += 1;
-        this.slider.setAttribute("src", this.pics[this.num])
+        this.setImg()
     }
 }
 
