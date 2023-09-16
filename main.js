@@ -23,8 +23,8 @@ class mySlider {
     }
 }
 
-const slider1 = new mySlider(myPics, sliderImg);
+const coffeeSlider = new mySlider(myPics, sliderImg);
 
-prevBtn.addEventListener('click', () => slider1.prev())
+prevBtn.addEventListener('click', () => coffeeSlider.prev())
 
-nextBtn.addEventListener('click', () => slider1.next())
+nextBtn.addEventListener('click', () => coffeeSlider.next())
