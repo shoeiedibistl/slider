@@ -9,7 +9,7 @@ class mySlider {
         this.length = picsArr.length;
         this.num = 0;
         this.slider = mySliderImg;
-        sliderImg.setAttribute("src", this.pics[this.num]);
+        mySliderImg.setAttribute("src", this.pics[this.num]);
     }   
 
     setImg() {
