@@ -1,3 +1,1 @@
-Simple loop slider for your page in Vanilla JS. Just copy the div.my-slider with its attachments from "index.html" to your HTML page, set the paths to your pics to array "myPics" (from one to any count) in "main.js", set your own styles or use defaults in "index.css" and enjoy the light simple slider.
-
-Pics: freepik.com
+Implement a simple slider using a JavaScript class with creating an exemplier of object, the constructor must accept an array of links to slide images at a minimum.
